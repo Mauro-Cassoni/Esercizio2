@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    margin: 5px;
+}
+
+.amsterdam{
+    background-image: url("https://www.scambieuropei.info/wp-content/uploads/buildings-gb4dec3aa8_1280.jpg");
+}
+
+.roma{
+    background-image: url("https://www.italia.it/content/dam/tdh/it/interests/lazio/roma/roma-in-48-ore/media/20220127150143-colosseo-roma-lazio-shutterstock-756032350.jpg");
+}
+
+.newyork{
+    background-image: url("https://wallpapers.com/images/featured/m8f9wvk92xym4seu.jpg");
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.layover{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 100%;
+}
